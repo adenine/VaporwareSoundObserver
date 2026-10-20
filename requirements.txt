@@ -1,0 +1,12 @@
+PyQt6>=6.6.0
+numpy>=1.24.0
+sounddevice>=0.4.6
+requests>=2.31.0
+paho-mqtt>=2.0.0
+
+# macOS-only: on-device Speech-to-Text (Speech.framework) and `say`-based TTS
+pyobjc-framework-Speech>=12.2.1
+pyobjc-framework-Cocoa>=12.2.1
+
+# Local YAMNet sound classification (tflite interpreter)
+ai-edge-litert>=2.1.6
